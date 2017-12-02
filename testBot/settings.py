@@ -16,14 +16,14 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-<<<<<<< HEAD:testBot/settings.py
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-=======
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, '/Bot/static'),
 )
 
->>>>>>> cf931d2d2980cabe0dd15c5b8f0470555b2da725:testBot/settings/local.py
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -33,11 +33,11 @@ SECRET_KEY = 'z*wo$1564d4&a1*6=vbopiwsh17$cdnnh45ygjx3f4#4szi+2i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD:testBot/settings.py
+
 ALLOWED_HOSTS = ['stack-exchange.herokuapp.com']
-=======
+
 ALLOWED_HOSTS = ['stack-exchange.herokuapp.com',]
->>>>>>> cf931d2d2980cabe0dd15c5b8f0470555b2da725:testBot/settings/local.py
+
 
 
 # Application definition

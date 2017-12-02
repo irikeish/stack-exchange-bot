@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from chatbot import Chat,reflections,multiFunctionCall
 import json,requests
 
@@ -98,6 +98,4 @@ def whoIs(query,sessionID="general"):
 # firstQuestion="Hi, I am your stackExchange bot. What can I do for you?"
 # Chat(pairs, reflections,call=call).converse(firstQuestion)
 
-=======
 
->>>>>>> cf931d2d2980cabe0dd15c5b8f0470555b2da725
