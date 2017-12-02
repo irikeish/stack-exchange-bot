@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from chatbot import Chat,reflections,multiFunctionCall
-from botUtil import pairs,whoIs,getQues
+from Bot.botUtil import pairs,whoIs,getQues
 from django.template.response import TemplateResponse
 
 
