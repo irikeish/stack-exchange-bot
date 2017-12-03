@@ -16,7 +16,7 @@ function createReply(){
 
 		var request = new XMLHttpRequest();
 		renderUserMsg(msg);
-		var url='http://127.0.0.1:8000/chat'+'?q='+encodeURIComponent(msg);
+		var url='https://stack-exchange.herokuapp.com/chat'+'?q='+encodeURIComponent(msg);
 		request.open('GET',url,);
 		request.onload=function(){
 			var reply=request.responseText;
