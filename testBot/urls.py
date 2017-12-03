@@ -20,5 +20,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url( r'^chat$',chat),
     url(r'^$',home),
+      url(r'^static/(?P<path>.*)$', 'django.views.static.serve',
+    {'document_root', settings.STATIC_ROOT}
+  ),
 
 ]
