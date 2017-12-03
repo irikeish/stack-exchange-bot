@@ -39,7 +39,7 @@ function renderBotMsg(msg){
 		htmlString+="<div id='kk' class=\"chat-box-left\">";
 		htmlString+=msg+"</div>";
 		htmlString+="<div class=\"chat-box-name-left\">"+" -  StackExchange Bot"+"</div>";
-		htmlString+=" <hr class=\"hr-clas\" />";
+		
 
 	chatBody.insertAdjacentHTML('beforeend',htmlString);
 	chatBody.scrollTop = chatBody.scrollHeight;
@@ -53,7 +53,7 @@ function renderUserMsg(msg){
 		htmlString+="<div class=\"chat-box-right\">";
 		htmlString+=msg+"</div>";
 		htmlString+="<div class=\"chat-box-name-right\">"+"- you"+"</div>";
-		htmlString+=" <hr class=\"hr-clas\" />";
+	
 
 	chatBody.insertAdjacentHTML('beforeend',htmlString);
 	chatBody.scrollTop = chatBody.scrollHeight;
