@@ -13,7 +13,7 @@ from django.template.response import TemplateResponse
 @csrf_exempt 
 def chat(request):
 	try:
-		client=str(request.GET["q"])
+		client=str(request.GET["q"]).strip()
 	except:
 		msg="hi"
 	call = multiFunctionCall({"whoIs":whoIs,"getQues":getQues})
