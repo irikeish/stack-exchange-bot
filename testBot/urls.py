@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from Bot.views import chat,home
-import settings
+from django.conf import settings
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url( r'^chat$',chat),
