@@ -1,4 +1,4 @@
-﻿
+
 /*======================================
     GENERAL STYLES
 ======================================= */
@@ -16,9 +16,6 @@ body {
     CHAT BOX STYLES
 ======================================= */
 
-.hr-clas {
-    border-top: 1px solid #A12EB3;
-}
 
 .chat-box-main {
     max-height:500px;
@@ -102,10 +99,7 @@ text-align: center;
     text-align:right;
 }
 
-.chat-box-name-right img {
-        max-width:40px;
-        border: 2px solid #354EA0;
-    }
+
 .chat-box-footer {
     background-color: #D8D8D8;
 padding: 10px;
