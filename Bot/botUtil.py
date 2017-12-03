@@ -9,7 +9,7 @@ pairs = ([
     ("(get |Show |give |display )(recently posted |new |newest |latest |recent posted |recently ask |recent )(\d*)(.*)( questions which are not answered| questions which are unanswered| questions| ques)(.*)", 
     ("{% call getQues: %3 %4 %5 %}",)),
 
-    ("(get |Show |give |display )(\d+)( recently posted| recent posted |new |newest |latest | recently ask| recent)(.*)( questions which are not answered| questions which are unanswered| questions| ques)(.*)", 
+    ("(get |Show |give |display )(\d+)( recently posted| recent posted| new| newest| latest| recently ask| recent)(.*)( questions which are not answered| questions which are unanswered| questions| ques)(.*)", 
     ("{% call getQues: %2 %4 %5 %}",)),
 
     
