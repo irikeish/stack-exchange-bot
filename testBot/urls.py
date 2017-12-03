@@ -17,12 +17,12 @@ from django.conf.urls import url
 from django.contrib import admin
 from Bot.views import chat,home
 from django.conf import settings
-import django.views.static.serve as stserve
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url( r'^chat$',chat),
     url(r'^$',home),
-    url(r'^static/(?P<path>.*)$',stserve, {'document_root': settings.STATIC_ROOT}),
+    url(r'^static/(?P<path>.*)$',django.views.static.serve, {'document_root': settings.STATIC_ROOT}),
 
 
 ]
